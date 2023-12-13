@@ -1,0 +1,40 @@
+/*ESPESSURA DA FONTE*/
+.w-1 {
+  font-weight: 300;
+}
+
+.w-2 {
+  font-weight: 500;
+}
+
+.w-3 {
+  font-weight: 700;
+}
+
+/*BOTÕES*/
+
+.btn-1 {
+  background-color: var(--color-green);
+  color: var(--color-g2);
+  padding: 7px 16px;
+  border-radius: 3px;
+}
+
+.btn-2 {
+  background-color: var(--color-green);
+  color: var(--color-transparent);
+  padding: 5px 10px;
+}
+
+.btn-3 {
+  background-color: var(--color-green);
+  color: var(--color-transparent);
+  padding: 5px 10px;
+}
+
+.btn-4 {
+  background-color: var(--color-green);
+  color: var(--color-transparent);
+  padding: 5px 10px;
+}
+

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scrollbar-width: thin;
+	scrollbar-color: var(--color-green) var(--color-g2);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: var(--font-1);
+  font-size: var(--f1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--color-green2);
+  color: var(--color-white);
+}
+
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--color-g2)
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--color-green);
+	border-radius: 20px;
+	border: 3px solid var(--color-g2);
+}
+
