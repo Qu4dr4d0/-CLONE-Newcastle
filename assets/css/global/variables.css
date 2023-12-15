@@ -3,7 +3,9 @@
   /*COLORS*/
   --color-green: #D0DD28;
   --color-green2: rgba(208, 221, 40, .3);
+  --color-green3: #F1E332;
   --color-purple: #1327C1;
+  --color-purple2:#01015f;
   --color-white: #ffffff;
   --color-red: #ec002f;
   --color-g1: #1E1E1E;
@@ -14,6 +16,5 @@
 
   /*FONTS*/
   --font-1: Montserrat;
-  --font-2: Poppins;
-
+  --font-2: "Poppins", "Sans-serif" ;
 }

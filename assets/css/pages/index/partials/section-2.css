@@ -1,0 +1,128 @@
+.section2 {
+  margin-top: 15px;
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 50px 80px;
+
+}
+
+.section2__title {
+  color: var(--color-white);
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+}
+
+.section2__text {
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 360px;
+  height: 407px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-purple2);
+  border: solid 2px var(--color-green);
+  padding: 20px 17px 30px;
+  border-radius: 10px;
+  gap: 30px;
+  text-align: center;
+  margin-block: 60px 30px;
+}
+
+
+
+.icon-border {
+  position: relative;
+  transition: color .15s, transform .2s;
+  border: solid 3px var(--color-green3);
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+}
+
+.icon-border .brain {
+  position: absolute;
+  color: var(--color-green3);
+  transform: scale(1);
+  transition: color .15s, transform .2s;
+  top: 32px;
+  left: 17px;
+}
+
+.icon-border .play {
+  position: absolute;
+  color: var(--color-green3);
+  transform: scale(1);
+  transition: color .15s, transform .2s;
+  top: 32px;
+  left: 17px;
+}
+
+.icon-border .user {
+  position: absolute;
+  color: var(--color-green3);
+  transform: scale(1);
+  transition: color .15s, transform .2s;
+  top: 31px;
+  left: 19px;
+}
+
+
+.icon-border:hover {
+  border-color: var(--color-white);
+  transform: scale(1.07);
+}
+
+.icon-border:hover i {
+  color: var(--color-white);
+  transform: scale(1.01);
+}
+
+.card h3 {
+  color: var(--color-green3);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card p {
+  font-size: .9rem;
+  line-height: 25px;
+}
+
+.cards__btn {
+  padding: 25px 80px;
+  background-color: var(--color-green);
+  border-radius: 5px;
+  font-weight: 700;
+  text-align: center;
+  transition: all .2s;
+  font-size: 20px;
+
+}
+
+.cards__btn:hover {
+  background-color: var(--color-g1);
+  color: var(--color-white);
+  transform: scale(1.1);
+}
+
+

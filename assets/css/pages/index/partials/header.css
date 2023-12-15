@@ -48,7 +48,7 @@
 
 }
 
-i {
+.social__icon i {
   color: var(--color-white);
   transform: scale(1);
   transition: color .15s, transform .4s;
@@ -59,6 +59,13 @@ i {
   transform: scale(1.2);
 }
 
+/*RESPONSIVIDADE*/
+@media (max-width: 1190px) {
+  .pre-nav {
+    display: none;
+  }
+
+}
 
 
 
