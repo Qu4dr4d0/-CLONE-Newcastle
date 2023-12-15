@@ -16,17 +16,18 @@ body {
   font-size: var(--f1);
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
+/*MODIFICAR A SELECÃO DE TEXTO*/
 ::selection {
   background: var(--color-green2);
   color: var(--color-white);
 }
 
+/*-------------- */
+html {
+  scroll-behavior: smooth;
+}
 
-/* Works on Chrome, Edge, and Safari */
+/* FAZER A SCROLLBAR FUNCIONAR NA MAIORIA DOS NAVEGADORES */
 *::-webkit-scrollbar {
 	width: 12px;
 }

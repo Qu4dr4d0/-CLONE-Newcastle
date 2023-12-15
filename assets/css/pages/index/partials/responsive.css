@@ -1,0 +1,7 @@
+/*RESPONSIVIDADE DO HEADER*/
+@media (max-width: 1190px) {
+  .pre-nav {
+    display: none;
+  }
+
+}

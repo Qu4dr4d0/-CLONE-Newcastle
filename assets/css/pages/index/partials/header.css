@@ -1,8 +1,4 @@
-.header {
-  display: flex;
-  flex-direction: column;
 
-}
 
 .pre-nav {
   height: 60px;
@@ -62,6 +58,9 @@ i {
   color: var(--color-green);
   transform: scale(1.2);
 }
+
+
+
 
 
 
