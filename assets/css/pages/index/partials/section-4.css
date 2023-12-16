@@ -1,0 +1,165 @@
+.section4 {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  padding: 70px 30px 60px;
+}
+
+.section4__title {
+  color: var(--color-black);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin-bottom: 25px;
+}
+
+.section4__text {
+  color: var(--color-g2);
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+.box-monuments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+}
+
+.bigben {
+  width: 333px;
+  text-align: center;
+  font-size: .9rem;
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: 20px;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s;
+}
+
+.bigben__img-container {
+  width: 100%;
+  height: 198px;
+  object-fit: contain;
+  background-image: url(../../../../imgs/background/bigben.png);
+  background-size: cover;
+  z-index: 1;
+  transition: all 0.3s;
+}
+
+
+.bigben__p-container {
+  background-color: var(--color-red);
+  padding: 60px 40px;
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+
+
+.rushmore {
+  width: 333px;
+  text-align: center;
+  font-size: .9rem;
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: 20px;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.rushmore__img-container {
+  width: 100%;
+  height: 198px;
+  object-fit: contain;
+  background-image: url(../../../../imgs/background/rushmore.png);
+  background-size: cover;
+  z-index: 1;
+  transition: all 0.3s;
+}
+
+
+.rushmore__p-container {
+  background-color: var(--color-purple);
+  padding: 60px 40px;
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+.liberty {
+  width: 333px;
+  text-align: center;
+  font-size: .9rem;
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: 20px;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.liberty__img-container {
+  width: 100%;
+  height: 198px;
+  object-fit: contain;
+  background-image: url(../../../../imgs/background/liberdade.png);
+  background-size: cover;
+  z-index: 1;
+  transition: all 0.3s;
+}
+
+
+.liberty__p-container {
+  color: var(--color-black);
+  background-color: var(--color-green3);
+  padding: 60px 40px;
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+.bigben__p-container:hover, .rushmore__p-container:hover, .liberty__p-container:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.bigben__img-container:hover, .rushmore__img-container:hover, .liberty__img-container:hover {
+  transform: translateY(10px);
+  
+}
+
+.section4-btn__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.section4__btn {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  transition: all .2s;
+  font-size: 20px;
+}
+
+.section4__btn:hover {
+  color: var(--color-green3);
+  background-color: var(--color-g2);
+  transform: scale(1.1);
+}
+
+
+
