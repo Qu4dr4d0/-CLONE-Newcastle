@@ -1,8 +1,73 @@
 .section5 {
   background-image: url(../../../../imgs/background/rafinha.png);
   display: flex;
-  background-repeat: no-repeat;
+  height: 630px;
   justify-content: center;
   padding: 150px 75px;
   background-position-x: center;
 }
+
+.section5__wrapper {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  color: var(--color-white);
+  gap: 15px;
+}
+
+.flex-align2 {
+  width: 570px;
+}
+
+.section5__curso {
+  width: 131px;
+  height: 56px;
+}
+
+.section5__text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.section5__link__box {
+  display: flex;
+  gap: 7px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section5__link__box i {
+  color: var(--color-green3);
+}
+
+.section5__hotmart {
+  width: 100px;
+  height: 32px;
+}
+
+.section5__btn {
+  background-color: var(--color-green3);
+  color: var(--color-g2);
+  font-weight: 700;
+  margin-top: 20px;
+  padding-block: 20px;
+  border-radius: 5px;
+  text-align: center;
+  transition: all .2s;
+  font-size: 20px;
+  min-width: 90%;
+}
+
+.section5__btn:hover {
+  color: var(--color-white);
+  background-color: var(--color-orange);
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+

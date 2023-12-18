@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: center;
   gap: 15px;
-
+  flex-wrap: wrap;
 }
 
 .bigben {
@@ -134,10 +134,6 @@
   
 }
 
-
-
-
-
 .section4__btn {
   background-color: var(--color-purple);
   color: var(--color-white);
@@ -148,6 +144,7 @@
   text-align: center;
   transition: all .2s;
   font-size: 20px;
+  width: 75%;
 }
 
 .section4__btn:hover {
