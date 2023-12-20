@@ -19,7 +19,7 @@ body {
 /*MODIFICAR A SELECÃO DE TEXTO*/
 ::selection {
   background: var(--color-green2);
-  color: var(--color-white);
+  mix-blend-mode: difference;
 }
 
 /*-------------- */
