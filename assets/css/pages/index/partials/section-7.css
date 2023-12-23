@@ -1,0 +1,36 @@
+.section7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 80px 50px 100px;
+  background-color: var(--color-g3);
+}
+
+.section7__title {
+  color: var(--color-black);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin-bottom: 25px;
+}
+
+.section7__text {
+  color: var(--color-g2);
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.vid-wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.vid-wrapper__1 p, .vid-wrapper__2 p, .vid-wrapper__3 p {
+  line-height: 10px;
+  color: var(--color-g2);
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 700;
+}

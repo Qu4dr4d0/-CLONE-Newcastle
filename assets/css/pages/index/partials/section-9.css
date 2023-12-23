@@ -1,0 +1,42 @@
+.section9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 80px 50px 100px;
+  background-color: var(--color-g3);
+}
+
+.section9__title {
+  color: var(--color-black);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin-bottom: 25px;
+}
+
+.section9__text {
+  color: var(--color-g2);
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.section9__wrapper {
+  display: flex;
+  align-items: center;
+  width: 178px;
+}
+
+.section9__card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.p-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: start;
+}
