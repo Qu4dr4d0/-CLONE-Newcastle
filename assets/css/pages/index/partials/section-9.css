@@ -37,7 +37,7 @@
 }
 
 .section9__card img {
-  border: solid .5px var(--color-g4);
+  border: solid 0.5px var(--color-g4);
 }
 
 .p-box {
@@ -45,7 +45,6 @@
   gap: 10px;
   align-items: center;
   justify-content: start;
-
 }
 
 .section9__text-card {
@@ -54,7 +53,7 @@
   padding: 15px;
   background-color: var(--color-white);
   gap: 10px;
-  border: solid .5px var(--color-g4);
+  border: solid 0.5px var(--color-g4);
 }
 
 .section9__text-card h2 {
@@ -65,7 +64,7 @@
   font-weight: 900;
   font-size: 12px;
   color: var(--color-green3);
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
 .section9__text-card a:hover {
