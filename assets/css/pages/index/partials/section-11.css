@@ -50,13 +50,35 @@
 }
 
 .section11__form {
-  display: grid;
-  grid-template-columns: 167px 167px 82px;
-  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 20px;
+  width: 417px;
+  height: 218px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.section11__name {
-  grid: 1 / 1 / 4 / 2;
+.section11__form-div {
+  display: flex;
+  gap: 15px;
+}
+
+.section11__btn {
+  background-color: var(--color-green);
+  color: var(--color-g1);
+  font-weight: 700;
+  padding-block: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all .2s;
+  font-size: 20px;
+
+}
+
+.section11__btn:hover {
+  color: var(--color-white);
+  background-color: var(--color-purple);
+  transform: scale(1.1);
 }
 
 
