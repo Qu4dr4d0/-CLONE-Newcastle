@@ -1,0 +1,132 @@
+.section12 {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  color: var(--color-black);
+  align-items: center;
+  justify-content: center;
+  padding: 50px 100px;
+}
+
+.section12__box-monuments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.section12__title {
+  font-size: 35px;
+  color: var(--color-black);
+  margin-block: 30px;
+  text-align: center;
+}
+
+.mundo {
+  width: 570px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-white);
+  line-height: 20px;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s;
+}
+
+.mundo__img-container {
+  width: 100%;
+  height: 325px;
+  object-fit: contain;
+  background-image: url(https://newcastleidiomas.com.br/wp-content/uploads/2022/07/Egali_-1-1024x607.png);
+  background-size: cover;
+  z-index: 1;
+  transition: all 0.3s;
+}
+
+.mundo__p-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: var(--color-black);
+  background-color: var(--color-yellow);
+  padding: 60px 40px;
+  z-index: 2;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.carteirinha {
+  width: 570px;
+
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-white);
+  line-height: 20px;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s;
+}
+
+.carteirinha__img-container {
+  width: 100%;
+  height: 325px;
+  object-fit: contain;
+  background-image: url(https://newcastleidiomas.com.br/wp-content/uploads/2022/07/Egali_-2-1024x607.png);
+  background-size: cover;
+  z-index: 1;
+  transition: all 0.3s;
+}
+
+.carteirinha__p-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: var(--color-white);
+  background-color: var(--color-red);
+  padding: 60px 40px;
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+.carteirinha__img-container:hover,
+.mundo__img-container:hover {
+  transform: translateY(10px);
+}
+
+.mundo__btn {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  font-weight: 700;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.2s;
+  font-size: 18px;
+}
+
+.mundo__btn:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  transform: scale(1.1);
+}
+
+.carteirinha__btn {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-weight: 700;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.2s;
+  font-size: 18px;
+}
+
+.carteirinha__btn:hover {
+  background-color: var(--color-purple);
+  color: var(--color-green3);
+  transform: scale(1.1);
+}
